@@ -23,7 +23,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
           <Sidebar />
         </div>
       
-        <div className='mt-4 flex flex-col gap-10 overflow-auto h-[88vh] w-[90vh] md:w-[50vh] videos flex-2'>
+        <div className='mt-4 flex flex-col gap-10 overflow-auto h-[88vh] w-[90vh] videos flex-2'>
          <Component {...pageProps}/>
         </div>
         </div>
