@@ -1,5 +1,5 @@
 import React,{useState, useEffect} from 'react'
-import { MdFavorite } from 'react-icons/Md'
+import { MdFavorite } from 'react-icons/md'
 import useAuthStore from '../store/authStore'
 
 interface Iprops {
