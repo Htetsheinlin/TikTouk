@@ -22,7 +22,7 @@ const Profile = ({data}: Iprops) => {
 
   const videos = showUserVideos ? 'border-b-2 border-black' : "text-gray-400"
   const liked = !showUserVideos ? 'border-b-2 border-black' : "text-gray-400"
-
+  //ok
   useEffect(()=>{
     if(showUserVideos){
       setVideoList(userVideos);
